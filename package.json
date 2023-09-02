@@ -1,0 +1,30 @@
+{
+  "name": "vanjs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/pages/*.html",
+    "build": "parcel build src/pages/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "parcel": "^2.9.3",
+    "typescript": "^5.2.2",
+    "typescript-plugin-css-modules": "^5.0.1"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "vanjs-core": "^1.2.0-rc.0"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  }
+}
