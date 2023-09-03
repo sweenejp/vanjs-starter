@@ -24,6 +24,15 @@ export const Nav = () => {
           },
           'Blog'
         )
+      ),
+      li(
+        Link(
+          {
+            href: '/about',
+            intent: pathname === '/about' ? 'primary' : 'secondary',
+          },
+          'About'
+        )
       )
     )
   );

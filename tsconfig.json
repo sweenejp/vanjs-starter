@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
-    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "lib": ["es2015.promise", "es5", "dom"]
   }
 }
